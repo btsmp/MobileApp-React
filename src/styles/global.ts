@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
   *{
     margin: 0;
@@ -7,7 +7,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #E5E5E5;
+    background-color: ${(props) => props.theme.white};
+    max-width: 412px;
+    margin: 0 auto;
   }
 
   body, button, input, textarea {
