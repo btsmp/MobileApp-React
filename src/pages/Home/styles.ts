@@ -31,7 +31,7 @@ export const Container = styled.div`
       }
     }
 
-    #wellcome {
+    #welcome {
       display: flex;
       justify-content: center;
       align-items: center;

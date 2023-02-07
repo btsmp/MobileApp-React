@@ -27,7 +27,7 @@ export function Home(props: any) {
     <Container>
       <header>
         <div>
-          <div id="wellcome">
+          <div id="welcome">
             <img src={profile} alt="Jéssica's photo" />
             <p>
               Hello, <span>Jéssica</span>
