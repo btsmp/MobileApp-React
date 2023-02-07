@@ -50,13 +50,16 @@ export const Container = styled.div`
     padding: 15px;
     border-radius: 10px;
     background-color: ${(props) => props.theme['blue-400']};
-    color: ${(props) => props.theme.white};
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     border: none;
     margin-bottom: 40px;
     cursor: pointer;
+    a {
+      text-decoration: none;
+      color: ${(props) => props.theme.white};
+    }
   }
 `
 

@@ -63,7 +63,9 @@ export function Details() {
             </ul>
           </div>
         </section>
-        <button>Get Started</button>
+        <button>
+          <Link to="/quiz">Get Started</Link>
+        </button>
       </main>
     </Container>
   )
